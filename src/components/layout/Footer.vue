@@ -2,7 +2,7 @@
   <div>
     <b-navbar type="light" variant="warning">
       <b-navbar-brand>
-        <router-link to="Home">McMakler Frontend Challenge</router-link>
+        <router-link to="Home">Developed by Velta</router-link>
       </b-navbar-brand>
       <b-collapse is-nav id="nav_collapse">
       </b-collapse>
@@ -28,5 +28,8 @@ export default {
   height: 200px;
   padding: 80px;
   padding-top: 50px;
+}
+b-navbar-brand {
+  text-align: center;
 }
 </style>

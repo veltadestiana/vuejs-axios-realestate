@@ -1,13 +1,14 @@
 <template>
   <b-container>
     <b-row>
-        <b-col cols="4" class="sameHeight" v-for="resp in resps.slice(0,10)">
+        <b-col cols="4" md="4" sm="12" class="sameHeight" v-for="resp in resps.slice(0,10)">
           <b-card
           v-bind:img-src="resp.advertisementAssets[0].advertisementThumbnails.inventory_m.url"
           img-alt="Image"
-          img-top tag="article"
+          img-top
           style="max-width: 20rem;"
-          class="mb-2">
+          class="mb-2"
+          >
           <p class="card-title">
             {{ resp.title }}
           </p>
@@ -46,3 +47,6 @@ export default {
   }
 }
 </script>
+
+<style>
+</style>
