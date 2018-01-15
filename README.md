@@ -22,10 +22,13 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+For Chrome users, please disable any adblock and/or install Chrome CORS extension: [CORS Toggle](https://chrome.google.com/webstore/detail/cors-toggle/jioikioepegflmdnbocfhgmpmopmjkim?hl=en)
+
 ## Built With
 
 * [Vue.js](vuejs.org/) - The Progressive JavaScript Framework, Vue.js is a better choice for quick development of cross-platform solutions. It can become a firm basis for high-end single page applications (SPAs) and beneficial solution to those cases, when performance is put ahead of good code organization or app structure.
 * [Axios](https://github.com/axios/axios/) - I am using axios to cut the middle step of passing the results of the http request to the .json() method and returns the object data effortlessly.
 * [Bootstrap Vue](https://maven.apache.org/) - Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system that I'm sure could be useful for this kind of project in terms of responsive design.
+* Built in event bus / publish-subscribe pattern of getting unrelated sections of the application to communicate.
 
 Others: vue-router, vue-moment, etc.
