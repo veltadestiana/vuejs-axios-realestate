@@ -30,7 +30,6 @@ export default {
         this.$Progress.parseMeta(meta)
       }
       this.$Progress.start()
-      // Continue to next page
       next()
     })
     this.$router.afterEach((to, from) => {
@@ -38,11 +37,11 @@ export default {
     })
 
     // Start listening to various events
-    EventBus.$on('countriesInfosRequested', countriesInfos => {
+    EventBus.$on('getAdsRequested', adsInfos => {
       console.log('Getting advertisements infos...')
     })
 
-    EventBus.$on('countriesInfosReceived', countriesInfos => {
+    EventBus.$on('getAds', adsInfos => {
       console.log('Advertisements infos received.')
     })
   }
@@ -80,6 +79,11 @@ a {
 .mb-2 {
   margin-top: 20px;
   margin-bottom: 20px;
+  border-radius: 0;
+}
+
+.card {
+  border-radius: 0;
 }
 
 .card-title {
@@ -91,10 +95,11 @@ a {
 
 .div-left{
   font-weight: bold;
-  float:left;
+  float: left;
 }
 .div-right{
-  float:right;
+  float: right;
+  color: #444444;
 }
 
 p {

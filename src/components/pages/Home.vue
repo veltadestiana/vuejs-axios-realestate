@@ -3,11 +3,11 @@
     <b-row>
         <b-col cols="4" class="sameHeight" v-for="resp in resps.slice(0,10)">
           <b-card
-          img-src="https://lorempixel.com/600/300/food/5/"
+          v-bind:img-src="resp.advertisementAssets[0].advertisementThumbnails.inventory_m.url"
           img-alt="Image"
           img-top tag="article"
           style="max-width: 20rem;"
-          class="ads-image mb-2">
+          class="mb-2">
           <p class="card-title">
             {{ resp.title }}
           </p>
@@ -45,5 +45,4 @@ export default {
     })
   }
 }
-
 </script>
