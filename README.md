@@ -2,6 +2,8 @@
 
 > Simple front-end code challenge from McMakler to create pixel perfect UI using chosen tech stack to retrieve advertisement listing.
 
+![](mcmakler.png)
+
 ## Getting Started
 
 ``` bash
@@ -22,7 +24,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Built With
 
-* [Vue.js](vuejs.org/) - The Progressive JavaScript Framework
+* [Vue.js](vuejs.org/) - The Progressive JavaScript Framework, Vue.js is a better choice for quick development of cross-platform solutions. It can become a firm basis for high-end single page applications (SPAs) and beneficial solution to those cases, when performance is put ahead of good code organization or app structure.
 * [Axios](https://github.com/axios/axios/) - I am using axios to cut the middle step of passing the results of the http request to the .json() method and returns the object data effortlessly.
 * [Bootstrap Vue](https://maven.apache.org/) - Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system that I'm sure could be useful for this kind of project in terms of responsive design.
 
