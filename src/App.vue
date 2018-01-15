@@ -89,6 +89,7 @@ a {
 .card-title {
   color: black;
 }
+
 .card-subtitle {
   color: grey;
 }
@@ -97,6 +98,7 @@ a {
   font-weight: bold;
   float: left;
 }
+
 .div-right{
   float: right;
   color: #444444;

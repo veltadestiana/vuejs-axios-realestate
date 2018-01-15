@@ -6,9 +6,10 @@
           v-bind:img-src="resp.advertisementAssets[0].advertisementThumbnails.inventory_m.url"
           img-alt="Image"
           img-top
-          style="max-width: 20rem;"
+          style="max-width: 20rem; position: relative"
           class="mb-2"
           >
+          <b-button id="badge"> Mieten </b-button>
           <p class="card-title">
             {{ resp.title }}
           </p>
@@ -49,4 +50,10 @@ export default {
 </script>
 
 <style>
+#badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 14px;
+}
 </style>

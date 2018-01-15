@@ -26,9 +26,15 @@ For Chrome users, please disable any adblock and/or install Chrome CORS extensio
 
 ## Built With
 
-* [Vue.js](vuejs.org/) - The Progressive JavaScript Framework, Vue.js is a better choice for quick development of cross-platform solutions. It can become a firm basis for high-end single page applications (SPAs) and beneficial solution to those cases, when performance is put ahead of good code organization or app structure.
+* [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework, Vue.js is a better choice for quick development of cross-platform solutions. It can become a firm basis for high-end single page applications (SPAs) and beneficial solution to those cases, when performance is put ahead of good code organization or app structure.
 * [Axios](https://github.com/axios/axios/) - I am using axios to cut the middle step of passing the results of the http request to the .json() method and returns the object data effortlessly.
-* [Bootstrap Vue](https://maven.apache.org/) - Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system that I'm sure could be useful for this kind of project in terms of responsive design.
+* [Bootstrap Vue](bootstrap-vue.js.org/docs/) - Bootstrap-Vue provides one of the most comprehensive implementations of Bootstrap V4 components and grid system that I'm sure could be useful for this kind of project in terms of responsive design.
 * Built in event bus / publish-subscribe pattern of getting unrelated sections of the application to communicate.
 
 Others: vue-router, vue-moment, etc.
+
+## Personal Notes & Reflection
+
+* Naming convention for objects could be improved through data mapping, but I am not doing that in this test because personally I'm not too familiar with Axios method.
+* Not too sure about 'Mieten' and 'Kaufen' part. My guess is whether it is defined in 'purpose', or judging from baseRent or sellPrice.
+* Create unit testing for the next time.
