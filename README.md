@@ -1,8 +1,4 @@
-# Front-End Interview Test
-
-> Simple front-end code challenge from McMakler to create pixel perfect UI using chosen tech stack to retrieve advertisement listing.
-
-![](mcmakler.png)
+# Front-End Challenge
 
 ## Getting Started
 
