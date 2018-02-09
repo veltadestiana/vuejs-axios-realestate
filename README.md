@@ -1,4 +1,5 @@
 # Front-End Challenge
+![screenshot](mcmakler.png)
 
 ## Getting Started
 
