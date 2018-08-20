@@ -1,4 +1,4 @@
-# Front-End Challenge
+# McMakler GmBH rental listing
 ![screenshot](mcmakler.png)
 
 ## Getting Started
